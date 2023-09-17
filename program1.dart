@@ -2,18 +2,16 @@
 
 void main()
 {
-    var x=10;
-    var y=37;
-    if(x%2==0)
-    {
-      print("10 is an even no ");
-    }
-    else if(y%2!=0){
-      print( " 37 is an odd no");
-    }
-   print(x);
-   print(y);
-
-
+  int num=0;
+  for(int i=1;i<=50;i++)
+  {
+    if(i%4==0|| i%5==0)
+{
+num++;
+continue;
 }
-
+print(i);
+  }
+  print(num);
+  
+}
